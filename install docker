@@ -21,3 +21,38 @@ chmod +x /usr/local/bin/docker-compose
 
 #install GitHub
 # sudo apt install git
+
+
+
+##############################################
+ ls
+    2  exit
+    3  curl -fsSL get.docker.com -o get-docker.sh
+    4  sudo user mod -aG docker username
+    5  user mod -aG docker username
+    6  sudo
+    7  sudo user mod -aG docker heimir
+    8  sudo docker version
+    9  curl -fsSL get.docker.com -o get-docker.sh
+   10  ls
+   11  .get-docker.sh
+   12  ./get-docker.sh
+   13  chmod +x get-docker.sh
+   14  ./get-docker.sh
+   15  sudo user mod -aG docker heimir
+   16  sudo usermod -aG docker heimir
+   17  docker version
+   18  exit
+   19  docker version
+   20  base=https://github.com/docker/machine/releases/download/v0.14.0 &&   curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
+   21  base=https://github.com/docker/machine/releases/download/v0.14.0 &&  curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine && sudo install /tmp/docker-machine /usr/local/bin/docker-machine
+   22  docker machine version
+   23  docker-machine version
+   24  sudi -i
+   25  sudo -i
+   26  exit
+   27  docker-compose version
+   28  chmod +x /usr/local/bin/docker-compose
+   29  sudo chmod +x /usr/local/bin/docker-compose
+   30  docker-compose version
+   ############################################
