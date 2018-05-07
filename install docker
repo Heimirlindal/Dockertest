@@ -1,5 +1,6 @@
 curl -fsSL get.docker.com -o get-docker.sh
-sudo user mod -aG docker username
+./get-docker.sh
+sudo usermod -aG docker heimir
 sudo docker version # to see if docker is installed
 
 #Install docker machine
@@ -11,7 +12,7 @@ base=https://github.com/docker/machine/releases/download/v0.14.0 &&
 
 #install docker compose
 sudo -i
-curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose chmod +x /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
 #docker-compose version
